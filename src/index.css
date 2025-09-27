@@ -1,0 +1,28 @@
+:root{
+  --primary: #0d6efd;
+  --muted: #6c757d;
+  --dark: #0b1220;
+}
+
+/* layout */
+html,body,#root{height:100%}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial; background:#fff; color:#111}
+
+/* hero visuals */
+.hero-stage { min-height: 420px; border-radius: 12px; background: linear-gradient(180deg,#0b1220 0%, #111827 60%); color:#fff; overflow:hidden; position:relative; }
+
+/* subtle cards */
+.card-shadow { box-shadow: 0 8px 30px rgba(2,6,23,0.35); border-radius: 12px; }
+
+.cta-strong{ background: linear-gradient(90deg,var(--primary), #0b5bd7); color:white; border: none;}
+
+/* Floating CTA */
+.fab-cta { position: fixed; right: 20px; bottom: 20px; z-index: 1200; }
+
+/* responsive adjustments */
+@media (max-width: 768px) {
+  .hero-stage { min-height: 360px; padding: 1rem; }
+}
+
+/* small helper */
+.text-muted-2 { color: #9aa0a6; }
