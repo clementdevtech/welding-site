@@ -14,10 +14,10 @@ export default function Home(){
         <div className="container">
           <div className="row g-4 align-items-center">
             <div className="col-md-6">
-              <img src="https://images.unsplash.com/photo-1542744094-24638eff58bb?q=80&w=1200&auto=format&fit=crop" alt="Workshop" className="img-fluid rounded shadow-sm" />
+              <img src="/logo.jpeg" alt="Workshop" className="img-fluid rounded shadow-sm" />
             </div>
             <div className="col-md-6">
-              <h2 className="fw-bold">About SteelForge</h2>
+              <h2 className="fw-bold">Dantez Welding Ke</h2>
               <p className="text-muted-2">We deliver built-to-spec welded metalwork: security doors, gates, windows, railings and structural fabrications. Our team follows documented processes and provides shop drawings, quality checks, and installation.</p>
               <ul className="mb-3">
                 <li>Experienced certified welders (MIG/TIG/ARC)</li>

@@ -19,7 +19,7 @@ const submit = (e) => {
   }
 
   // WhatsApp config
-  const phoneNumber = '254700000000' // Change to your real WhatsApp number
+  const phoneNumber = '254729069509' // Change to your real WhatsApp number
   const text = `Hello, I am ${name}.%0AEmail: ${email}%0APhone: ${phone || 'N/A'}%0A%0AMessage:%0A${message}`
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${text}`
 
@@ -89,7 +89,7 @@ const submit = (e) => {
             
             <div className="p-4">
               <h5>Visit Us</h5>
-              <p className="mb-1">SteelForge Yard, Industrial Area</p>
+              <p className="mb-1">Nairobi, Industrial Area</p>
               <p className="text-muted-2">Mon–Sat 8:00–17:00</p>
               <p className="mb-0">
                 Phone: +254 700 000 000<br/>

@@ -3,12 +3,12 @@ import { motion, AnimatePresence, useAnimation } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 const finishedItems = [
-  { title: 'Security Door', spec: 'Galvanized, powder-coated', src: 'https://images.unsplash.com/photo-1560185007-c5ec03c2d8f3?q=80&w=1200&auto=format&fit=crop' },
-  { title: 'Window Grille', spec: 'Wrought iron', src: 'https://images.unsplash.com/photo-1576458088443-04a19bb13b5b?q=80&w=1200&auto=format&fit=crop' },
-  { title: 'Sliding Gate', spec: 'Heavy-duty channel', src: 'https://images.unsplash.com/photo-1615873968403-89e06804a36d?q=80&w=1200&auto=format&fit=crop' },
-  { title: 'Balcony Railing', spec: 'Stainless steel 304', src: 'https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?q=80&w=1200&auto=format&fit=crop' },
-  { title: 'Louvre Window', spec: 'Alu frame, tempered', src: 'https://images.unsplash.com/photo-1617692854669-2d20dfd96fb2?q=80&w=1200&auto=format&fit=crop' },
-  { title: 'Industrial Frame', spec: 'Welded box section', src: 'https://images.unsplash.com/photo-1564865886636-62084f8459b3?q=80&w=1200&auto=format&fit=crop' },
+  { title: 'Security Door', spec: 'Galvanized, powder-coated', src: '/images/image15.jpeg' },
+  { title: 'Window Grille', spec: 'Wrought iron', src: '/images/image18.jpeg' },
+  { title: 'Sliding Gate', spec: 'Heavy-duty channel', src: '/images/image5.jpeg' },
+  { title: 'Balcony Railing', spec: 'Stainless steel 304', src: '/images/image17.jpeg' },
+  { title: 'Louvre Window', spec: 'Alu frame, tempered', src: '/images/image13.jpeg' },
+  { title: 'Industrial Frame', spec: 'Welded box section', src: '/images/image14.jpeg' },
 ]
 
 export default function HeroAnimation(){

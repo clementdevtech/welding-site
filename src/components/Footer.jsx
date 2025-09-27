@@ -7,7 +7,7 @@ export default function Footer(){
       <div className="container">
         <div className="row g-4">
           <div className="col-md-4">
-            <h5>SteelForge</h5>
+            <h5>Dantez Welding Ke</h5>
             <p className="text-muted-2">Precision welding & metal fabrication. Doors, gates, windows & structural works.</p>
           </div>
           <div className="col-md-4">
@@ -20,8 +20,8 @@ export default function Footer(){
           </div>
           <div className="col-md-4">
             <h6>Contact</h6>
-            <div className="small text-white-50">+254 700 000 000<br/>info@steelforge.co</div>
-            <div className="mt-3 small text-white-50">© {new Date().getFullYear()} SteelForge Ltd.</div>
+            <div className="small text-white-50">+254 729069509<br/>info@dantezweldingke.co</div>
+            <div className="mt-3 small text-white-50">© {new Date().getFullYear()} Dantez Welding Ke.</div>
           </div>
         </div>
       </div>

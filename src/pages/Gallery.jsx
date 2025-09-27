@@ -5,19 +5,39 @@ import { FaExpand, FaPlay, FaPause, FaChevronLeft, FaChevronRight } from 'react-
 import '../index.css' // keep styles from earlier
 
 const images = [
-  'https://images.unsplash.com/photo-1560185007-c5ec03c2d8f3?q=80&w=1200&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1576458088443-04a19bb13b5b?q=80&w=1200&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1615873968403-89e06804a36d?q=80&w=1200&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?q=80&w=1200&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1617692854669-2d20dfd96fb2?q=80&w=1200&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1564865886636-62084f8459b3?q=80&w=1200&auto=format&fit=crop',
+  '/images/image1.jpg',
+  '/images/image2.jpg',
+  '/images/image3.jpg',
+  '/images/image4.jpg',
+  '/images/image5.jpg',
+  '/images/image6.jpg',
+  '/images/image7.jpg',
+  '/images/image8.jpg',
+  '/images/image9.jpg',
+  '/images/image10.jpg',
+  '/images/image11.jpg',
+  '/images/image12.jpg',
+  '/images/image13.jpg',
+  '/images/image14.jpg',
+  '/images/image15.jpg',
+  '/images/image16.jpg',
+  '/images/image17.jpg',
+  '/images/image18.jpg',
+  '/images/image19.jpg',
+  '/images/image20.jpg',
+  '/images/image21.jpg',
 ]
 
 // Your supplied social video URLs — you can add/remove later
 const videos = [
   { url: 'https://www.facebook.com/100087134987165/videos/1500244774652475/?app=fbl', platform: 'facebook', duration: 22 },
-  { url: 'https://www.instagram.com/reel/DLahMsWoJqa/?igsh=Mnl5bTZxNDB0b21h', platform: 'instagram', duration: 18 },
-  { url: 'https://vm.tiktok.com/ZMAP3Q5cM/', platform: 'tiktok', duration: 16 },
+  { url: 'https://www.facebook.com/share/r/16v4MYdWzX/', platform: 'facebook', duration: 22 },
+  { url: 'https://www.instagram.com/reel/DLahMsWoJqa/?igsh=Mnl5bTZxNDB0b21h', platform: 'facebook', duration: 22 },
+  { url: 'https://www.facebook.com/share/r/1YjGitf6dy/', platform: 'facebook', duration: 22 },
+  { url: 'https://www.facebook.com/share/r/1S27nzEwGG/', platform: 'facebook', duration: 22 },
+  { url: 'https://www.facebook.com/reel/1700126924033223/?mibextid=rS40aB7S9Ucbxw6v', platform: 'facebook', duration: 22 },
+ /* { url: 'https://www.instagram.com/reel/DLahMsWoJqa/?igsh=Mnl5bTZxNDB0b21h', platform: 'instagram', duration: 18 },
+  { url: 'https://vm.tiktok.com/ZMAP3Q5cM/', platform: 'tiktok', duration: 16 },*/
 ]
 
 // Helper: build embed src (best-effort params for autoplay & mute)
