@@ -92,8 +92,8 @@ const submit = (e) => {
               <p className="mb-1">Nairobi, Industrial Area</p>
               <p className="text-muted-2">Mon–Sat 8:00–17:00</p>
               <p className="mb-0">
-                Phone: +254 700 000 000<br/>
-                Email: info@steelforge.co
+                Phone: +254 729069509<br/>
+                Email: info@dantezweldingke.co
               </p>
               <hr/>
               <h6>Follow Up</h6>

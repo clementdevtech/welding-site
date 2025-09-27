@@ -6,7 +6,7 @@ import CTA from '../components/CTA'
 export default function Projects(){
   const projects = [
     { t: 'Mall Entrance Gate', img: '/images/image5.jpeg', tag: 'Commercial' },
-    { t: 'Residential Balcony', img: '/images/imag13.jpeg', tag: 'Residential' },
+    { t: 'Residential Balcony', img: '/images/image13.jpeg', tag: 'Residential' },
     { t: 'Factory Staircase', img: '/images/image8.jpeg', tag: 'Industrial' },
     { t: 'Security Windows', img: '/images/image20.jpeg', tag: 'Residential' },
   ]
